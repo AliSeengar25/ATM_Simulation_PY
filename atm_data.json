@@ -1,0 +1,79 @@
+{
+    "next_transaction_number": 5,
+    "accounts": {
+        "1000066968": {
+            "holder_name": "Ali Seengar",
+            "account_type": "Savings",
+            "branch": "defence phase 2 Main Branch",
+            "pin": "2425",
+            "balance": 126155,
+            "daily_withdrawal": {
+                "date": "2026-11-17",
+                "total": 25000
+            },
+            "transactions": [
+                {
+                    "id": "TXN000001",
+                    "type": "Deposit",
+                    "amount": 44,
+                    "date": "2026-11-17",
+                    "time": "11:59:39",
+                    "balance_after": 150044,
+                    "account": "******3456"
+                },
+                {
+                    "id": "TXN000002",
+                    "type": "Withdrawal",
+                    "amount": 25000,
+                    "date": "2026-11-17",
+                    "time": "12:00:02",
+                    "balance_after": 125044,
+                    "account": "******3456"
+                },
+                {
+                    "id": "TXN000003",
+                    "type": "Deposit",
+                    "amount": 1111,
+                    "date": "2026-11-17",
+                    "time": "12:00:45",
+                    "balance_after": 126155,
+                    "account": "******3456"
+                }
+            ]
+        },
+        "1000066952": {
+            "holder_name": "Muhammad Asim",
+            "account_type": "Current",
+            "branch": "Lahore Gulberg Branch",
+            "pin": "7777",
+            "balance": 120000,
+            "daily_withdrawal": {
+                "date": "2026-11-17",
+                "total": 0
+            },
+            "transactions": []
+        },
+        "1000066955": {
+            "holder_name": "Aliza",
+            "account_type": "Savings",
+            "branch": "Islamabad F-7 Branch",
+            "pin": "5555",
+            "balance": 11500,
+            "daily_withdrawal": {
+                "date": "2026-11-17",
+                "total": 500
+            },
+            "transactions": [
+                {
+                    "id": "TXN000004",
+                    "type": "Withdrawal",
+                    "amount": 500,
+                    "date": "2026-11-17",
+                    "time": "12:37:06",
+                    "balance_after": 11500,
+                    "account": "******6955"
+                }
+            ]
+        }
+    }
+}
